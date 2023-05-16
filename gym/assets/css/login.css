@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.main {
+  max-width: 60vw;
+  height: auto;
+  margin: auto;
+  background-color: teal;
+  border: 1px solid teal;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 10px;
+  position: relative;
+}
+.main h2 {
+  font-family: Franklin Gothic;
+}
+#form {
+  width: 80%;
+  margin: auto;
+}
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  display: none;
+}
